@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Первый сайт",
+    "tech": "HTML + CSS + Bootstrap",
+    "description": "Учебный сайт с карточками, навигацией и адаптивной вёрсткой.",
+    "link": "about.html"
+  },
+  {
+    "title": "Форма обратной связи",
+    "tech": "JavaScript validation",
+    "description": "Проверка заполнения полей и email без перезагрузки страницы.",
+    "link": "contacts.html"
+  },
+  {
+    "title": "Интерактив и тема",
+    "tech": "DOM + события",
+    "description": "Кнопка «Подробнее», модальное окно и переключение тёмной темы.",
+    "link": "index.html"
+  }
+]
