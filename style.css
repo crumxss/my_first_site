@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #FFCBDB;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #ffffff;
+  margin: 0 0 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 6px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #f19cbb;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cards .card {
+  margin-bottom: 0;
+}
+
+pre {
+  background: #f1f5f9;
+  padding: 10px;
+}
+
+a {
+  color: #2563eb;
+}
+
+.btn-primary {
+  background-color: #f19cbb;
+  border-color: #f19cbb;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #FF97BB;
+  border-color: #FF97BB;
+}
+
+footer {
+  background: #FF97BB;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+body.dark-theme {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+body.dark-theme header {
+  background: #954ba4;
+}
+
+body.dark-theme footer {
+  background: #954ba4;
+}
+
+body.dark-theme .card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+body.dark-theme .text-muted {
+  color: #94a3b8 !important;
+}
+
+body.dark-theme .form-control {
+  background: #0f172a;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+body.dark-theme .form-control::placeholder {
+  color: #94a3b8;
+}
+
+body.dark-theme .modal-content {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+body.dark-theme h2{
+  color: #954ba4;
+}
+
+body.dark-theme h3{
+  color: #954ba4;
+}
+
+body.dark-theme .btn-primary {
+  background-color: #954ba4;
+  border-color: #954ba4;
+}
+
+
+@media (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+  }
+
+  .cards .card {
+    flex: 1;
+  }
+}
