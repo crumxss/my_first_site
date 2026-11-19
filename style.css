@@ -152,7 +152,11 @@ body.dark-theme .modal-content {
   border-color: #334155;
 }
 
-body.dark-theme h2, h3 {
+body.dark-theme h2 {
+  color: #954ba4;
+}
+
+body.dark-theme h3 {
   color: #954ba4;
 }
 
